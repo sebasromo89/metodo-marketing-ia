@@ -1,0 +1,17 @@
+# Llaves: nunca se suben
+.env
+*.env
+!.env.example
+
+# Videos, métricas y análisis descargados
+datos/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
